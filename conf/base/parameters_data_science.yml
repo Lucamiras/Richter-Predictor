@@ -1,0 +1,29 @@
+finetune: False
+
+eval_metric: TotalF1
+
+param_grid:
+    depth:
+      - 10
+    iterations:
+      - 500
+      - 1000
+    learning_rate:
+      - 0.05
+      - 0.01      
+    l2_leaf_reg:
+      - 3
+      - 7
+      - 9
+    border_count:
+      - 11
+      - 13
+      - 15
+      - 17
+  
+predefined_params:
+  depth: 10
+  iterations: 1500
+  learning_rate: 0.05
+  l2_leaf_reg: 3
+  border_count: 15

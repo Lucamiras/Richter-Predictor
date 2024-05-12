@@ -1,0 +1,6 @@
+non_categorical_columns:
+- age
+- area_percentage
+- height_percentage
+- count_families
+- is_train
