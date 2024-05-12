@@ -30,8 +30,7 @@ Here are the outcomes of the experiments:
 | Random Forest with one hot endodings for ``geo_level_1_id`` and binary encoding for ``geo_level_2_id`` | 0.662 |
 | Optimized CatBoost classifier | 0.745 |
 
-## Installation
-
+## Run it yourself
 To run this project, you need to have Python and the Kedro framework installed. You can install the required dependencies by following these steps:
 
 1. Clone this repository to your local machine.
